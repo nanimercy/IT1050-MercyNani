@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab2
 {
-    class Multiplication
+    class Program
     {
         static void Main(string[] args)
         {
@@ -32,8 +32,5 @@ namespace Lab2
             Console.ReadLine();
 
         }
-
     }
 }
-
-
