@@ -31,7 +31,8 @@ namespace Lab2
             Console.WriteLine("HelloWorld!   From Mercy Nani");
             Console.ReadLine();
 
-            /* (a)If the program contains no errors the Console application executes when you press the start button on the Visual studio window or Ctrl + F5 
+            /* (a)The C# program begins with writing the source codes atarting with the Main() method entry point.
+             * If the program contains no errors the Console application executes when you press the start button on the Visual studio window or Ctrl + F5. 
              *    
              * (b)Integer variables are whole numbers that can have both zero, positive and negative values but no decimal values. For example, 0, -5, 10
              *   Double/floating-point variabales can hold real numbers (numbers that can have a fractional part). Floats are used when more precision is needed.
