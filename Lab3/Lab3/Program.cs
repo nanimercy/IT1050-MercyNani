@@ -28,19 +28,17 @@ namespace Lab3
                 Console.ReadLine();
             }
 
-            // if else statement for isTrue variable
+            // ifelse statement for isTrue variable
             int isTrue;
             isTrue = 20;
             if
             (isTrue >= 20)
                 Console.WriteLine("It is True");
-
             else
             {
                 Console.WriteLine("It is False");
                 Console.ReadLine();
             }
-
             if (isTrue <= 19)
             {
                 Console.WriteLine("It is True");
@@ -52,16 +50,15 @@ namespace Lab3
             }
 
 
-            //program the conversts Fahrenheit to Celsius
-            Console.WriteLine("Enter temperature in Fahrenheit:");   
+            //program that converts Fahrenheit to Celsius
+                Console.WriteLine("Enter temperature in Fahrenheit:");
             double fahrenheit = Convert.ToDouble(Console.ReadLine());
             double celsius = (fahrenheit - 32d) * 5d / 9d;
-            Console.WriteLine("Temperature in Celsius is: " + celsius);
-            Console.ReadLine();
-            
-            if (fahrenheit < 40)
-            Console.WriteLine("It is Cold!");
+                Console.WriteLine("Temperature in Celsius is: " + celsius);
+                Console.ReadLine();
 
+            if (fahrenheit < 40)
+                Console.WriteLine("It is Cold!");
             if (fahrenheit <= 90)
                 Console.WriteLine("It is Cool!");
             else
@@ -71,7 +68,7 @@ namespace Lab3
 
             //while loop that outputs values 1 to 10. Increment by 1
             int x = 1;
-                while (x < 11);
+            while (x < 11) ;
             {
                 Console.WriteLine(x);
                 x++;
@@ -80,7 +77,6 @@ namespace Lab3
             //while loop that outputs values 60 to 20. Decrement by 5
             int a;
             a = 60;
-
             while (a <= 65)
             {
                 Console.WriteLine(a);
@@ -91,7 +87,6 @@ namespace Lab3
             {
                 int j;
                 j = 22;
-
                 while (j <= 22)
                 {
                     Console.WriteLine(j);
@@ -101,15 +96,10 @@ namespace Lab3
             }
         }
     }
-
-
-
-
-
-
-
-
-
 }
-    }
-}
+
+
+
+
+
+
