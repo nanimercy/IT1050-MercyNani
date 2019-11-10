@@ -46,7 +46,7 @@ namespace Lab3
             }
 
 
-            //program that converts Fahrenheit to Celsius
+            //Program that converts Fahrenheit to Celsius
                 Console.WriteLine("Enter temperature in Fahrenheit:");
             double fahrenheit = Convert.ToDouble(Console.ReadLine());
             double celsius = (fahrenheit - 32d) * 5d / 9d;
