@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lab3
 {
@@ -68,10 +64,12 @@ namespace Lab3
 
             //while loop that outputs values 1 to 10. Increment by 1
             int x = 1;
-            while (x < 11) ;
+            while (x < 11)
             {
                 Console.WriteLine(x);
+                Console.ReadLine();
                 x++;
+                
             }
 
             //while loop that outputs values 60 to 20. Decrement by 5
@@ -79,21 +77,24 @@ namespace Lab3
             while (a >= 20)
             {
                 Console.WriteLine(a);
+                Console.ReadLine();
                 a = a - 5;
             }
 
-            //while loop that outputs values 10 to 20. increment by 2
+            //while loop that outputs values 10 to 20. Increment by 2
             {
-                int j = 10 ;
+                int j = 10;
                 while (j <= 20)
                 {
                     Console.WriteLine(j);
+                    Console.ReadLine();
                     j = j + 2;
                 }
 
             }
         }
     }
+
 }
 
 
