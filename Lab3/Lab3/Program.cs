@@ -75,9 +75,8 @@ namespace Lab3
             }
 
             //while loop that outputs values 60 to 20. Decrement by 5
-            int a;
-            a = 60;
-            while (a <= 65)
+            int a = 60;
+            while (a >= 20)
             {
                 Console.WriteLine(a);
                 a = a - 5;
@@ -85,9 +84,8 @@ namespace Lab3
 
             //while loop that outputs values 10 to 20. increment by 2
             {
-                int j;
-                j = 22;
-                while (j <= 22)
+                int j = 10 ;
+                while (j <= 20)
                 {
                     Console.WriteLine(j);
                     j = j + 2;
