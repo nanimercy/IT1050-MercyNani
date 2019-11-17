@@ -11,23 +11,21 @@ namespace Lab4
         static void Main(string[] args)
         {
             /*4 Basic elements of the counter-controlled repetition:
-             a control variable (or loop counter),
-              the control variable’s initial value,
-              the control variable’s increment that’s applied during each iteration of the loop,
-              the loop-continuation condition that determines if looping should continue.
-             */
+              A control variable (or loop counter)
+              The control variable’s initial value
+              The control variable’s increment that’s applied during each iteration of the loop
+              The loop-continuation condition that determines if looping should continue
+            */
 
             /* Compare and contrast While and for repetition statements   
-             *The while and for repetition statements repeatedly execute statement(s) as long 
-              as a loop-continuation condition remains true.Both statements execute their bodies zero or more times. 
+              The while and for repetition statements repeatedly execute statement(s) as long as a loop-continuation condition remains true. Both statements execute their bodies zero or more times. 
               The for repetition statement specifies the counter-controlled-repetition details in its header,
               whereas the control variable in a while statement normally is initialized before the loop and incremented in the loop's body. 
               In most cases, for statements are used for counter-controlled repetition, and while
-              statements are used for sentinel-controlled repetition. However, while and for can
-              each be used for either repetition type.
-             */
+              statements are used for sentinel-controlled repetition. However, while and for can each be used for either repetition type.
+            */
 
-            //when to use a do-while statement than a while statement.  
+           //when to use a do-while statement than a while statement.  
            /* A while statement executes statement repeatedly until expression evaluates to zero. A do-while loop executes one or more times, depending on the value of the termination expression.
              The difference between do-while and while is that the while loop tests the loop condition at the top of the loop while the do-while evaluates its expression at the bottom of the loop.
              Therefore, the statements within the do block are always guaranteed to execute at least once.
