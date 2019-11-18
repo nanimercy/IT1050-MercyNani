@@ -18,7 +18,8 @@ namespace Lab4
             */
 
             /* Compare and contrast While and for repetition statements   
-              The while and for repetition statements repeatedly execute statement(s) as long as a loop-continuation condition remains true. Both statements execute their bodies zero or more times. 
+              The while and for repetition statements repeatedly execute statement(s) as long as a loop-continuation condition remains true. 
+              Both statements execute their bodies zero or more times. 
               The for repetition statement specifies the counter-controlled-repetition details in its header,
               whereas the control variable in a while statement normally is initialized before the loop and incremented in the loop's body. 
               In most cases, for statements are used for counter-controlled repetition, and while
@@ -33,7 +34,7 @@ namespace Lab4
              If you want some statement or set of statements to execute at least once, then repeat
              based on a condition, a do…while is more appropriate than a while. 
 
-             For example if a program needs to obtain a posiive integer value from the user for the program to continue. 
+             For example if a program needs to obtain a positive integer value from the user for the program to continue. 
              A do…while’s body could contain the statements required to obtain the user input, and the loop-continuation
              condition could determine whether the value entered is less than 0. Then the loop would repeat and prompt the user for input until the user entered a value greater than or equal to zero. 
              Once this criteria is met the loopcontinuation condition would become false, and the loop would terminate, allowing the program to continue past the loop. 
