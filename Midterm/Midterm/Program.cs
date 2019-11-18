@@ -14,8 +14,8 @@ namespace Midterm
             /* Sequential: default mode. Sequential execution of code statements (one line after another) -- like following a recipe
                Selection: used for decisions, branching -- choosing between 2 or more alternative paths. i.e the if, if/else and switch statements
                Repetition: used for looping, i.e. repeating a piece of code multiple times in a row. while, do/while and for loop
-            /*  
-            /*
+            */
+            
             //infinite loop with boolean keepLooping variable set to true
             int a = 10;
             Boolean keepLooping = true;
@@ -25,38 +25,30 @@ namespace Midterm
                 a++;
                 Console.WriteLine(a);
             }
-            */
+            
 
 
             //while loop to print 2 through 128 in brackets with condition that ends loop after 64 is printed
-            int x = 1;
-            while (x <= 64)
+            int x = 2;
+            while (x < 128)
             {
-                if ((x % 2) == 0)
-                {
-                    Console.WriteLine("[{0}]", x);
-                }
-                else if ((x % 2) != 0)
-                {
-                    Console.WriteLine("");
-                }
-                x *= 2;
+                Console.WriteLine("{" + x + "}");
+                x = x + x;
             }
-  
+        
+
             //for loop that prints 49 through 1 separated by a comma
-            {
-                string m = ",";
-                int p;
-                for (p = 49; p >= 1; --p)
+            
+                for (int p = 49; p > 0; p--)
                 {
                     Console.Write(p);
 
-                    if (p >= 2)
+                    if (p != 1)
                     {
-                        Console.Write(m);
+                        Console.Write(",");
                     }
                 }
-            }
+            
 
 
             //loop that prints all odd numbers 1 through 21 separated by spaces
@@ -108,6 +100,10 @@ namespace Midterm
                 Console.WriteLine("Let's go outside!");
                 Console.ReadLine();
             }
+
+
+
+
 
 
         }
