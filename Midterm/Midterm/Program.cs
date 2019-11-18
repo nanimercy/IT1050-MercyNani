@@ -71,7 +71,7 @@ namespace Midterm
                 }
             }
 
-            //
+            //what is the output of the following code
             int n = 8;
             int i = 10; // initialize
             do
