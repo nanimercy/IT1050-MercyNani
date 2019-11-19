@@ -95,12 +95,11 @@ namespace Midterm
                 bool icyRain = false;
                 bool tornadoWarning = false;
 
-                if ((!icyRain) && (!tornadoWarning))
-                {
-                    Console.WriteLine("Let's go outside!");
-
-                }
-             Console.WriteLine("\n");
+            if (icyRain == false && tornadoWarning == false)
+            {
+                Console.WriteLine("Let's go outside!");
+            } 
+                Console.WriteLine("\n");
 
 
             //Nested loop
