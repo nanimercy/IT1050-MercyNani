@@ -15,8 +15,9 @@ namespace Midterm
                Selection: used for decisions, branching -- choosing between 2 or more alternative paths. i.e the if, if/else and switch statements
                Repetition: used for looping, i.e. repeating a piece of code multiple times in a row. while, do/while and for loop
             */
-            
+
             //infinite loop with boolean keepLooping variable set to true
+            /* uncomment to run keeplooping code
             int a = 10;
             Boolean keepLooping = true;
             while (keepLooping)
@@ -24,8 +25,7 @@ namespace Midterm
                 if (a <= 9) keepLooping = false;
                 a++;
                 Console.WriteLine(a);
-            }
-            
+            } */
 
 
             //while loop to print 2 through 128 in brackets with condition that ends loop after 64 is printed
@@ -33,26 +33,24 @@ namespace Midterm
             while (x < 128)
             {
                 Console.WriteLine("{" + x + "}");
-                x = x + x;
+                x = x + x;  
             }
-        
+                Console.WriteLine("\n"); 
+
 
             //for loop that prints 49 through 1 separated by a comma
-            
-                for (int p = 49; p > 0; p--)
+            for (int p = 49; p > 0; p--)
                 {
-                    Console.Write(p);
-
+                 Console.Write(p);
                     if (p != 1)
                     {
                         Console.Write(",");
                     }
-                }
-            
+            }
+                 Console.WriteLine("\n"); 
 
 
             //loop that prints all odd numbers 1 through 21 separated by spaces
-
             int j = 1;
             while (j <= 21)
             {
@@ -66,10 +64,10 @@ namespace Midterm
                 }
                 j++;
             }
- 
+            Console.WriteLine("\n"); 
+
 
             //what is the output of the following code
-
             int n = 8;
             int i = 10; // initialize
             do
@@ -77,35 +75,53 @@ namespace Midterm
                 Console.Write("*");
                 i++; // update!
             } while (i < n); // test condition
-             // the output is *
+            /* the output is * because this is a do while loop and it will execute the build of the loop 
+               at least once before testing the condition relating to the while*/
+            
+            Console.WriteLine("\n");
 
-            //exact code using a while statement
-            {
+            //exact code using a while statement and i changed the values to "y" and "z" to be able to run
                 int y = 8;
                 int z = 10; // initialize
-                while (y < z)
+                while (z < y)
                 {
-                    Console.Write("*");
-                    y++;
+                    Console.Write("*"); 
+                    z++;
                 }
-            }
-            //the above code outputs nothing because y isnt greater than z
- 
+            /*The above code outputs nothing because the while loop will test the condition before executing the build and since
+               y isnt greater than z* the app outputs nothing */
+
+            Console.WriteLine("\n"); 
+
             //We can combine mutiple boolean values by using the boolean operators AND and OR (and NOT).
-            bool icyRain = false;
-            bool tornadoWarning = false;
+                bool icyRain = false;
+                bool tornadoWarning = false;
 
-            if ((!icyRain) && (!tornadoWarning))
-            {
-                Console.WriteLine("Let's go outside!");
-                Console.ReadLine();
-            }
+                if ((!icyRain) && (!tornadoWarning))
+                {
+                    Console.WriteLine("Let's go outside!");
 
+                }
+             Console.WriteLine("\n");
 
-
-
-
-
+            //Nested loop
+            int q = 6; // Total Number of Lines...
+                           // Print simple pyramid..
+                for (int s = (q - 1); s >= 1; s--)
+                {
+                    // Loop For Space
+                    for (int t = 1; t <= (q - s); t++)
+                        Console.Write(" ");
+                    //increase the number value
+                    for (int Number = 1; Number <= s; Number++)
+                        Console.Write(Number);
+                    //decrease the number value
+                    for (int Number = (s - 1); Number >= 1; Number--)
+                        Console.Write(Number);
+                        Console.WriteLine();
+                }
+                        Console.ReadLine();
+            
         }
     }
 }
