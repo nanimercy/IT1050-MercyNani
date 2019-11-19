@@ -13,16 +13,16 @@ namespace Midterm
             //  3 types of control structures
             /* Sequential: default mode. Sequential execution of code statements (one line after another) -- like following a recipe
                Selection: used for decisions, branching -- choosing between 2 or more alternative paths. i.e the if, if/else and switch statements
-               Repetition: used for looping, i.e. repeating a piece of code multiple times in a row. while, do/while and for loop
+               Repetition: used for looping -- repeating a piece of code multiple times in a row. i.e while, do/while and for loop
             */
 
             //infinite loop with boolean keepLooping variable set to true
             /* uncomment to run keeplooping code
-            int a = 10;
+            int a = 9;
             Boolean keepLooping = true;
             while (keepLooping)
             {
-                if (a <= 9) keepLooping = false;
+                if (a <= 8) keepLooping = false;
                 a++;
                 Console.WriteLine(a);
             } */
@@ -75,12 +75,10 @@ namespace Midterm
                 Console.Write("*");
                 i++; // update!
             } while (i < n); // test condition
-            /* the output is * because this is a do while loop and it will execute the build of the loop 
-               at least once before testing the condition relating to the while*/
+            /* the result of the output is "*" because this is a do while loop and it will execute the build of the loop 
+               at least once before testing the condition relating to the while statement */
             
-            Console.WriteLine("\n");
-
-            //exact code using a while statement and i changed the values to "y" and "z" to be able to run
+            //exact code using a while statement and I changed the values to "y" and "z" to be able to run
                 int y = 8;
                 int z = 10; // initialize
                 while (z < y)
@@ -89,9 +87,9 @@ namespace Midterm
                     z++;
                 }
             /*The above code outputs nothing because the while loop will test the condition before executing the build and since
-               y isnt greater than z* the app outputs nothing */
-
+               "Z" isnt less than "y" the app outputs nothing */
             Console.WriteLine("\n"); 
+
 
             //We can combine mutiple boolean values by using the boolean operators AND and OR (and NOT).
                 bool icyRain = false;
@@ -103,6 +101,7 @@ namespace Midterm
 
                 }
              Console.WriteLine("\n");
+
 
             //Nested loop
             int q = 6; // Total Number of Lines...
