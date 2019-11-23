@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Dog
+namespace Lab5
 {
     class Program
     {
@@ -12,9 +12,16 @@ namespace Dog
             Dog myDog = new Dog();
             myDog.Name = "Fido";
 
-            // To do: uncomment the following lines of code to call the methods
+            //To do: uncomment the following lines of code to call the methods
             myDog.bark();
             myDog.doTrick("Fetch");
         }
     }
 }
+
+
+
+
+
+
+

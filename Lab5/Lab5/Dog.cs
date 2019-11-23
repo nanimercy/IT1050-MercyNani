@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dog
+
+namespace Lab5
 {
     class Dog
     {
         public string Name { get; set; }
-        public string trickName { get; set; }
-
+        public string trickName{ get; set; }
         // Add bark() method
-
         public void bark()
         {
             Console.WriteLine("{0} is Barking...", Name);
@@ -25,8 +24,5 @@ namespace Dog
             Console.WriteLine("{0} is so smart!  {0} is doing a(n) {1}", Name, trickName);
             Console.ReadLine();
         }
-
-
     }
 }
-
