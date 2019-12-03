@@ -92,7 +92,7 @@ namespace Midterm
                     i++;
                 }
                 /*The above code outputs nothing because the while loop will test the condition before executing the build and since
-                   "Z" isnt less than "y" the app outputs nothing */
+                   "i" isnt less than "n" the app outputs nothing */
                 Console.WriteLine("\n");
             }
 
